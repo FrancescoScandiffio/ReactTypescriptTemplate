@@ -43,4 +43,5 @@ For example, to rename the project as `my-frontend` (or any other text) you just
 1. Move inside directory `webapp`.
 2. In file `package.json` update the value of the key `name` from `webapp` to `my-frontend`.
 3. In file `package-lock-json` locate the two occurrences of key `name` that are at the beginning of the file, then change their values from `webapp` to `my-frontend`.
-    * If you do not see them, search use built-in search/replace to find the word `webapp`: there are only two occurrences in the file and you need to replace both of them.
+    * If you do not see them, use built-in search/replace to find the word `webapp`: there are only two occurrences in the file and you need to replace both of them.
+4. Change the name of `webapp` folder

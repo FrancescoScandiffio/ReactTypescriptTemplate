@@ -1,30 +1,31 @@
 # Frontend Template with React and Typescript
  
-This is a ready-to-dev template of a frontend webapp in React with Typescript.
+This is a ready-to-dev template for a frontend webapp in React with Typescript.
 Projects created with this template are suitable to become clientside full-stack apps, static websites or user interfaces powered by web technologies that communicate with a separate backend service.
 
 The template is preconfigured with the following libraries, which are also all MIT licensed:
-* [Vite build tool](https://vite.dev/).
-* [react-router-dom](https://reactrouter.com/en/main) for routing support (multipage-oriented capability)
+* [Vite](https://vite.dev/): frontend build tooling.
+* [react-router-dom](https://reactrouter.com/en/main): routing library
 * [primereact](https://primereact.org/installation/): complete list of ready-to-use react components with advanced features, with javascript and typescript code examples.
 * [primeflex](https://primeflex.org/): library with css classes similar to bootstrap, with premade light and dark color styles.
 * [primeicons](https://primereact.org/icons/): set of common icons, with built-in spinning capability
 * [apexcharts](https://apexcharts.com/): library with multiple types of charts with advanced features and an extensive list of demo codes
 * [framer-motion](https://www.framer.com/motion/): animation library
-  
 
+<br></br>
+**Not included in the template**, a list of additional MIT libraries:
+* [grid-layout](https://github.com/react-grid-layout/react-grid-layout): complex grid manager, with dynamic placement and resizing (see the [demo list](https://github.com/react-grid-layout/react-grid-layout?tab=readme-ov-file#demos))
 
 ## Setup project
 1. Install [Node.js](https://nodejs.org/en)
 2. Clone this project. In the following steps, we will refer to the clone folder as `$ProjectFolder`
-3. Inside command line, move into folder `$ProjectFolder\webapp`
-4. Install all the requirements with command  <br>`npm install`
-5. Start the frontend development server with command  <br>`npm run dev`.
-6. In browser, open the link provided by the frontend server.
-7. If the clone has version control, add folder `node_modules` to ignore list
+3. (Optional) Change name of the webapp ([See Section 'Change name of the webapp'](#change-name-of-the-webapp)).
+4. Inside command line, move into folder `$ProjectFolder\webapp`
+5. Install all the requirements with command  <br>`npm install`
+6. Start the frontend development server with command  <br>`npm run dev`.
+7. In browser, open the link provided by the frontend server.
+8. If the clone has version control, add folder `node_modules` to ignore list
     * If you use git, this is already configured in the provided .gitignore
-8. (Optional) Change name of the webapp.
-
 
 ## Generate a twin of this template from scratch
 To generate a twin of this template from scratch, perform the following steps:

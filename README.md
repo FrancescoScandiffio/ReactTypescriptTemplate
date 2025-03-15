@@ -10,7 +10,6 @@ The template is preconfigured with the following libraries, which are also all M
 * [primeflex](https://primeflex.org/): library with css classes similar to bootstrap, with premade light and dark color styles.
 * [primeicons](https://primereact.org/icons/): set of common icons, with built-in spinning capability
 * [apexcharts](https://apexcharts.com/): library with multiple types of charts with advanced features and an extensive list of demo codes
-* [framer-motion](https://www.framer.com/motion/): animation library
   
 
 
